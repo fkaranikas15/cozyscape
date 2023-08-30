@@ -4,10 +4,11 @@ import Home from "./pages/Home";
 import Categories from "./pages/Categories";
 import Header from "./ui/Header";
 import Footer from "./features/footer/Footer";
-import ScrollToTop from "./utils/scrollToTop";
+
 import ProductPage from "./pages/ProductPage";
 import BlogPage from "./pages/BlogPage";
 import { useState } from "react";
+import ScrollToTop from "./utils/ScrollToTop";
 
 function App() {
   const [isShoppingCartOpen, setIsShoppingCartOpen] = useState(false);
