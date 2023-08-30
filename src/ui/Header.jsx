@@ -95,7 +95,7 @@ function Header({ isShoppingCartOpen, handleToggleCart }) {
             <FaBars />
           </StyledButton>
           <StyledLink to="/">
-            <img src="/src/img/header-logo.png" alt="logo of company" />
+            <img src="/header-logo.png" alt="logo of company" />
           </StyledLink>
           <StyledButton onClick={handleToggleCart}>
             <span>{totalQuantity}</span>

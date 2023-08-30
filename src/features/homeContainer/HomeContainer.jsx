@@ -25,25 +25,21 @@ function HomeContainer() {
     <StyledHomeContainer>
       <HomeItem
         title="Live Comfortably"
-        img="/src/img/home/home-img-1.jpg"
+        img="/home/home-img-1.jpg"
         row={2}
         column={2}
         url="all"
       />
       <HomeItem
         title="Skincare"
-        img="/src/img/home/home-img-2.jpg"
+        img="/home/home-img-2.jpg"
         row={2}
         url="skin-care"
       />
-      <HomeItem
-        title="Kitchen"
-        img="/src/img/home/home-img-3.jpg"
-        url="kitchen"
-      />
+      <HomeItem title="Kitchen" img="/home/home-img-3.jpg" url="kitchen" />
       <HomeItem
         title="Electronics"
-        img="/src/img/home/home-img-4.jpg"
+        img="/home/home-img-4.jpg"
         url="electronics"
       />
     </StyledHomeContainer>

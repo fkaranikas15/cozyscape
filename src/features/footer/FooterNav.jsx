@@ -111,7 +111,7 @@ function FooterNav() {
   return (
     <StyledFooterNav>
       <div>
-        <img src="/src/img/footer-logo.png" alt="footer logo" onClick={goTop} />
+        <img src="/footer-logo.png" alt="footer logo" onClick={goTop} />
         <p>
           Elevate your space with our exclusive furniture pieces. Participate in
           our curated auctions and bring home comfort and style at your price.

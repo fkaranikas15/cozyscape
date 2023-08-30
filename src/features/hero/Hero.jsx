@@ -4,7 +4,7 @@ import { Button } from "../../ui/Button";
 import { device } from "../../utils/sizes";
 
 const StyledHero = styled.section`
-  background-image: url("/src/img/hero-img.jpg");
+  background-image: url("/hero-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;

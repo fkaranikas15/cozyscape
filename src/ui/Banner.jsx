@@ -3,7 +3,7 @@ import { device } from "../utils/sizes";
 
 const StyledBanner = styled.div`
   text-align: center;
-  background-image: url("/src/img/banner.jpg");
+  background-image: url("/banner.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
