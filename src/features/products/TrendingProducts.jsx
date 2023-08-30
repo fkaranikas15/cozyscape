@@ -71,7 +71,7 @@ function TrendingProducts() {
   const { pathname } = useLocation();
 
   function moveRight() {
-    if (translateX > -470) {
+    if (translateX > -590) {
       setTranslateX((translateX) => translateX - 30 - 3);
     }
   }
