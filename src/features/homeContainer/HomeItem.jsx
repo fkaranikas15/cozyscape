@@ -16,8 +16,9 @@ const StyledHomeItem = styled.div`
     grid-row: span 1;
   }
 
-  & h3 {
+  & span {
     font-size: 4rem;
+    font-weight: 700;
     color: var(--color-white);
     position: absolute;
     bottom: 2rem;
@@ -44,7 +45,7 @@ function HomeItem({ title, img, row, column, url }) {
     <StyledHomeItem img={img} row={row} column={column}>
       <Link to={`/categories/${url}`}>
         <Overlay></Overlay>
-        <h3>{title}</h3>
+        <span>{title}</span>
       </Link>
     </StyledHomeItem>
   );
