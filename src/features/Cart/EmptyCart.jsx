@@ -19,7 +19,7 @@ const StyledEmptyCart = styled.div`
 function EmptyCart({ handleToggleCart }) {
   return (
     <StyledEmptyCart>
-      <img src="/src/img/empty-cart.png" alt="Empty Cart" />
+      <img src="/empty-cart.png" alt="Empty Cart" />
       <span>Your cart is empty</span>
       <Button onClick={handleToggleCart}>Keep Browsing</Button>
     </StyledEmptyCart>

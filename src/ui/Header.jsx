@@ -17,6 +17,10 @@ const StyledHeader = styled.div`
   align-items: center;
   border-bottom: 1px solid var(--color-light-grey);
   padding: 1rem 2rem;
+
+  @media ${device.mobile} {
+    gap: 2rem;
+  }
 `;
 
 const StyledLink = styled(Link)`
@@ -34,8 +38,7 @@ const StyledLink = styled(Link)`
       width: 70%;
     }
     @media ${device.mobileS} {
-      font-size: 4.8rem;
-      line-height: 1.1;
+      width: 80%;
     }
   }
 `;
@@ -55,11 +58,6 @@ const StyledButton = styled.button`
     &:hover,
     &:active {
       fill: var(--color-primary);
-    }
-
-    @media ${device.tablet} {
-      width: 3.2rem;
-      height: 3.2rem;
     }
   }
 
